@@ -1,6 +1,9 @@
-﻿DateTime now = new DateTime(2020, 3, 19);
-var jd = new JalaaliDate.JalaaliDate(now);
-var x = jd.ToString();
-var y = jd.AddYears(1).ToString();
+﻿using JalaaliDate;
+
+DateTime now = new DateTime(2021, 7, 5);
+var jd = new JalaaliDateTime(now);
+var a = jd.GetMonthDays;
+var x = jd.ToString("yyyy/MM/dd HH:mm:ss");
+var y = jd.AddMonths(1).ToString("yyyy/MM/dd HH:mm:ss");
 Console.WriteLine(x);
 Console.WriteLine(y);

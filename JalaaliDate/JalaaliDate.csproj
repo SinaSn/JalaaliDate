@@ -5,13 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>JalaaliDate</PackageId>
-        <PackageVersion>1.0.0-alpha</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <Authors>Sina Saeedinejad</Authors>
         <Company>Sina Saeedinejad</Company>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
     <ItemGroup>
-        <None Include="../README.md" Pack="true" PackagePath="\"/>
+        <None Include="../README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 </Project>
